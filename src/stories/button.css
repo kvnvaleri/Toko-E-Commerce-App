@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.storybook-button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+.storybook-button--Default {
+  color: #E74243;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+.storybook-button--secondary {
+  color: #E74243;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+.storybook-button--small {
+  font-size: 12px;
+  padding: 8px 16px;
+  width: 111px;
+  height: 32px;
+}
+.storybook-button--medium {
+  font-size: 14px;
+  padding: 8px 20px;
+  width: 134px;
+  height: 36px;
+}
+.storybook-button--large {
+  font-size: 14px;
+  padding: 8px 20px;
+  width: 142px;
+  height: 40px;
+}
+
+.storybook-button--larger {
+  font-size: 14px;
+  padding: 8px 20px;
+  width: 142px;
+  height: 42px;
+}
+
+.storybook-button--max-large {
+  font-size: 16px;
+  padding: 12px 24px;
+  width: 156px;
+  height: 46px;
+}
+
+.storybook-button--ghost-default {
+  color: #ffffff;
+  background-color: #EB4F5A;
+  opacity: 0;
+}
+
+.storybook-button--ghost-secondary {
+  color: #ffffff;
+  background-color: rgba(39, 39, 39, 0.1);
+}
+
+.storybook-button--ghost-pressed {
+  color: #ffffff;
+  background-color: rgba(39, 39, 39, 0.2);
+}
+
+.storybook-button--ghost-focused {
+  color: #ffffff;
+  background-color: rgba(39, 39, 39, 0.1);
+}
+
+.storybook-button--ghost-disabled {
+  color: #BFBFBF;;
+  background-color: #EB4F5A;
+  opacity: 0;
+}
+
+.storybook-button--icon-only {
+  padding: 8px;
+  width: auto;
+  height: auto;
+}

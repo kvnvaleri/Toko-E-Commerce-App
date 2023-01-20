@@ -1,0 +1,45 @@
+* {
+  box-sizing:  border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.app {
+  height: 100%;
+  min-height: 100%;
+}
+
+.top-web {
+  background: linear-gradient(72.22deg, #EB2A2E 0%, #CF1863 100%);
+}
+
+.bottom-web {
+  background: linear-gradient(71.13deg, #E0062E 9.02%, #CF1863 87.85%);
+}
+
+@media screen and (min-width: 2441px) {
+  .bottom-web {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .section_padding {
+    padding: 4rem;
+  }
+  .section_margin {
+    margin: 4rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .section_padding {
+    padding: 4rem 2rem;
+  }
+  .section_margin {
+    margin: 4rem 2rem;
+  }
+}
